@@ -34,3 +34,9 @@ public:
 int kelilingLayang(LayangLayang l) {
     return 2 * (l.a + l.b);
 }
+
+class BelahKetupat {
+private:
+    int d1, d2;
+    int sisi;
+
