@@ -24,4 +24,13 @@ public:
         return 0.5 * d1 * d2;
     }
 
-    
+    void tampilkanLuas() {
+        cout << "Luas Layang-Layang : " << hitungLuas() << endl;
+    }
+
+    friend int kelilingLayang(LayangLayang l);
+};
+
+int kelilingLayang(LayangLayang l) {
+    return 2 * (l.a + l.b);
+}
