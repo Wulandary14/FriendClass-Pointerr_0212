@@ -47,4 +47,8 @@ public:
         cin >> d1;
         cout << "Masukkan diagonal 2 : ";
         cin >> d2;
-       
+        cout << "Masukkan sisi : ";
+        cin >> sisi;
+    }
+
+    
