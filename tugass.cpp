@@ -59,4 +59,9 @@ public:
         return 4 * sisi;
     }
 
-    
+    void tampilkan() {
+        cout << "Luas Belah Ketupat : " << hitungLuas() << endl;
+        cout << "Keliling Belah Ketupat : " << hitungKeliling() << endl;
+    }
+};
+
