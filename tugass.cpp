@@ -65,3 +65,16 @@ public:
     }
 };
 
+int main() {
+    LayangLayang l;
+    BelahKetupat b;
+
+    l.inputData();
+    l.tampilkanLuas();
+    cout << "Keliling Layang-Layang : " << kelilingLayang(l) << endl;
+
+    b.inputData();
+    b.tampilkan();
+
+    return 0;
+}
