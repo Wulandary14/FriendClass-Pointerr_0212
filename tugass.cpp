@@ -40,3 +40,9 @@ private:
     int d1, d2;
     int sisi;
 
+public:
+    void inputData() {
+        cout << "\n=== Belah Ketupat ===" << endl;
+        cout << "Masukkan diagonal 1 : ";
+        cin >> d1;
+        
